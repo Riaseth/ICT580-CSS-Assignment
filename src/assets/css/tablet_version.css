@@ -2,6 +2,7 @@
 
 
 /* you may add to or change the body rule */
+
 body {
     font-family: sans-serif;
   /* color: #fff;*/
@@ -43,11 +44,14 @@ a:hover {
 h1{
     color: #82E8FF;
     text-align: center;
+    font-weight: bolder;
+    font-size: 3rem;
 }
 header{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 nav ul{
     display: flex;
@@ -59,6 +63,7 @@ nav ul li{
 
     margin:10px;
     list-style: none;
+    font-size: 1.7rem;
     
 }
 
@@ -71,28 +76,31 @@ article{
     
     
 }
-section{
-    max-width: 80%;
-}
+
 .photo{
-    padding-top: 3px;
+    padding-top: 6px;
     margin: 10px;
     
 }
+
 #stagbeetle{
     background-color: #FFD5AE ;
     align-items: center;
+    padding-bottom: 5px;
+   
     
 }
 #ladybug{
     background-color: #B26219 ;
     align-items: center;
+    padding-bottom: 5px;
     
 }
 #bluemintbeetle{
     background-color: #FFBD82;
     
     align-items: center;
+    padding-bottom: 5px;
 }
 section.text{
     background-color: white;
@@ -105,22 +113,34 @@ section.text{
     text-align:center ;
 }
 
-p{
-  /*  max-width: 100%;*/
+section p{
+    max-width: 600px;
     padding: 12px;
     font-size: 1 rem;
+    box-sizing: border-box;
     
 
-}
-section p{
     padding: 7px;
-
 }
+
 footer{
     background-color: gray;
+    justify-content: center;
 
 }
 footer p{
     font-weight: bold;
     font-size: 0.8rem;
+    padding: 5px;
+    margin: 3px;
+    text-align: center;
+    
+    
+    
+}
+.photo p{
+    font-weight: bold;
+}
+li{
+    font-weight: bold;
 }
