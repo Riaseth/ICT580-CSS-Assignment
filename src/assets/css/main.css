@@ -4,7 +4,7 @@
 /* you may add to or change the body rule */
 body {
     font-family: sans-serif;
-   /* color: #fff;*/
+    color: #fff;
     background: #000;
 }
 img {
@@ -39,26 +39,4 @@ a {
 }
 a:hover {
     color: #82E8FF;
-}
-#stagbeetle{
-    background-color: rgb(110, 131, 35);
-}
-#ladybug{
-    background-color: #82E8FF;
-}
-#bluemintbeetle{
-    background-color: rgb(14, 124, 124);
-}
-section.text{
-    background-color: white;
-}
-.text h2{
-    text-align:center ;
-}
-article{
-    display :flex;
-    flex-direction: column;
-}
-p{
-    max-width: 50%;
 }
