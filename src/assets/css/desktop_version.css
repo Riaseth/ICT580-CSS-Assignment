@@ -47,6 +47,7 @@ h1{
 header{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 nav ul{
     display: flex;
@@ -60,7 +61,7 @@ nav ul li{
 article{
     display: flex;
     flex-direction: row;
-   width: 500px
+   
     height: 100%;
    
     
@@ -101,10 +102,11 @@ img{
     background-color:#FFBD82 ;
 }
 footer{
-    background-color:#ccc;
+    background-color:grey;
 }
 footer p{
     font-weight: bold;
     font-size: 0.8rem;
     color: black;
+    text-align: center;
 }
